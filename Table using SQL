@@ -1,0 +1,43 @@
+CREATE TABLE Student (
+ Student ID int PRIMARY KEY,
+  FirstName varchar(255),
+  LastName varchar(255),
+  Email varchar(255),
+  Phone varchar(20),
+  Address varchar(255),
+  City varchar(100),
+  State varchar(100),
+  ZIP int
+);
+
+INSERT INTO Student (StudentID, FirstName, LastName, Email, Phone, Address, City, State, ZIP)
+VALUES
+(1, 'John', 'Doe', 'john.doe@example.com', '123-456-7890', '123 Main St', 'Anytown', 'CA', 12345),
+(2, 'Jane', 'Smith', 'jane.smith@example.com', '098-765-4321', '456 Elm St', 'Othertown', 'NY', 67890),
+(3, 'Bob', 'Johnson', 'bob.johnson@example.com', '555-123-4567', '789 Oak St', 'Thistown', 'TX', 34567);
+
+To add a single Student , you can use a single INSERT INTO statement:
+
+
+INSERT INTO Customers (CustomerID, FirstName, LastName, Email, Phone, Address, City, State, ZIP)
+VALUES
+(4, 'Alice', 'Williams', 'alice.williams@example.com', '111-222-3333', '321 Maple St', 'Yourtown', 'FL', 90123);
+
+
+To delete the ZIP column from the "Student" table, you can use the ALTER TABLE statement with the DROP COLUMN clause:
+
+
+ALTER TABLE Customers
+DROP COLUMN ZIP;
+
+To delete a specific Student's ZIP code, but keep the column, you can use the UPDATE statement:
+
+
+UPDATE Customers
+SET ZIP = NULL
+WHERE CustomerID = 1;
+
+To delete the entire "Student" table, you can use the DROP TABLE statement:
+
+
+DROP TABLE Student;
