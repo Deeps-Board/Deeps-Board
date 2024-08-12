@@ -1,0 +1,39 @@
+PROBLEM: 
+A university stores students 'standardized test scores in a table named STUDENT. Student X placed 213^(th) on the test
+Write a query to find student X's test score (i.e.., the 213^(th)highest STUDENT>SCORE in STUDENT).
+A Table is provided: STUDENT.
+
+Schema
+
+         STUDENT
+
+Name       Type      Description     
+
+ID        Integer    The Student unique ID. This is a primary key
+
+AGE       Integer    The Student's Age
+ 
+SCORE     Integer    The Student's standardized test score
+
+Sample Data Table
+
+ID    AGE   Score
+
+1     19    91
+2     20    90
+3     20    87
+4     21    72
+5     19    98
+6     20    50
+
+The Table's Score (from highest to lowest) are (90,91,90,81,72,50).As an example the fourth-highest score is 87. For the real query, find the 213yh highest score.
+
+QUERY
+
+SELECT Score
+FROM(
+SELECT DISTINCT SCORE 
+FROM STUDENT
+ORDER BY SCORE DESC
+)AS score
+LIMIT 1 OFFSET 212;
