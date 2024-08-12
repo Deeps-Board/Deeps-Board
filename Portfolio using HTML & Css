@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Deepika S</h1> 
+		<nav>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#Education">Education</a></li>
+				<li><a href="#Technical Skills">Technical Skills</a></li>
+				<li><a href="#Qualities">Qualities</a></li>
+				<li><a href="#Internships">Internships</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#certificates">Certificates</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+<hr></hr>
+		<section id="about">
+			<h2>About Me</h2>
+			<p>Hello! Am Deepika S, A Dedicated and innovative toacquire a Challenging career for improving the skills and ability in the field that offers professional growth, while being resources full, innovative and flexible..</p>
+		</section>
+<hr></hr>
+		<section id="Education">
+			<h2>Education</h2>
+			<p>BCA |2017-2020|DR.G.R.DAMODARAN COLLEGE OF SCIENCE| COIMBATORE | 79%<br>
+M.SC.CS|2022-2024|HINDUSTHAN COLLEGE OF ARTS & SCIENCE|COIMBATORE | 86%</p>
+		</section>
+<hr></hr>
+		<section id="Technical Skills">
+			<h2>Technical Skills</h2>
+			<p><ul>
+<li>Programming Language :C, C++ ,Python</li>
+<li>Web Technology: HTML, XML, PHP</li>
+<li>Database: SQL, DBMS</li>
+<li>Software Proficiency:MS Office,MS Excel</li>
+<li>Operating system: Window, Linux</li>
+</ul></p>
+		</section>
+<hr></hr>
+		<section id="Qualities">
+			<h2>Qualities</h2>
+			<p><ul>
+<li>Attentive Listening and effective Oral Communication.</li>
+<li>Ability to create quick ideas and apply for solution</li>
+<li>Problem solving</li>
+</ul></p>
+		</section>
+<hr></hr>
+		<section id="Internships">
+			<h2>Internships</h2>
+			<p><ul>
+<li><h3>Topic: SoftwareTesting | Algo Software Solution| Coimbatore><h3><h3>Description:</h3>"Software Testing Internship at Algo Software Solution, Coimbatore
+
+- Duration: [November 2022- December2022]
+<h4> Key Responsibilities:</h4>
+<ul>
+    <li>Tested software applications to identify bugs and defects</li>
+    <li>Utilized Cucumber Framework for automation testing</li>
+    <li>Collaborated with the development team to resolve issues</li>
+    <li>Developed strong analytical and problem-solving skills</li>
+</ul>
+<h4>Skills Learned:</h4>
+<ul>
+    <li>Cucumber Framework</li>
+    <li>Automation testing</li>
+    <li>Defect tracking and reporting</li>
+    <li>Collaboration and communication with development teams</li>
+</ul>
+<li><h3>Topic: Cloud Computing AWS|Refinment Software Solution|Coimbatore><h3><h3>Description:</h3>"Cloud Computing AWS Internship at Refinment Software Solution, Coimbatore
+
+- Duration: [september 2023]
+<h4>Key Responsibilities:</h4>
+<ul>
+    <li>Explored AWS services and features</li?
+    <li>Created and managed AWS accounts and resources</li>
+    <li>Implemented cloud computing solutions using AWS</li>
+    <li>Collaborated with the team to resolve cloud-related issues>/li>
+</ul>
+<h5> Skills Learned:</h4>
+<ul>
+    <li> AWS services (EC2, S3, RDS, etc.)</li>
+    <li>Cloud deployment and management</li>
+    <li>Resource optimization and cost management</li>
+    <li>Collaboration and communication with cloud teams</li>
+</ul>
+</ul></p>
+		</section>
+<hr></hr>
+		<section id="Certificates">
+			<h2>Certificates</h2>
+			<p><ul>
+<li><h4>Infosys Spring: Certificate course on Network Topology</h4></li>
+<li><h4>Amazon: Certificate course on AWS by Amazon</h4>
+</ul></p>
+		</section>
+<hr></hr>
+		<section id="portfolio">
+			<h2>Portfolio</h2>
+			<div class="project-container">
+				<div class="project">
+					
+					<h3>Project 1</h3>
+					<a href="Desktop\prjct.html">Project Link</a>
+					<p><h1> TRAF(Transulating Ascoustic Signal through Radio Frequency Communication)</h1><h1>Description:</h1>TARF it builds a communication among the underwater vehicle through the radio
+frequency communication a signal arises with the help of sonar signal and vibration take place using
+radar and GPS tracker on the BlackBox to identify the location  </p>
+				</div>
+				
+			</div>
+		</section>
+<hr></hr>
+		<section id="contact">
+			<h2>Contact</h2>
+			<p><ol>
+<li><h4>Email: deepikaselvaraj2000@gmail.com</h4></li>
+<li><h4>Phone:+91 9444586260</h4></li>
+<li><h4>Address:82 Kamarajer Nager Kallimadai Singanallur post Coimbatore- TamilNadu-641005</h4></li>
+<li><h4><a href="https://www.linkedin.com/in/deepika-s-3a1441228/"> Deepika linkedin </h4></li></a>
+</ol></p>
+		</section>
+<hr></hr>
+		<section id="Declaration">
+			<h2>Declaration</h2>
+			<p> I Hereby declare that all the information given above is true and correct to the best of my Knowledge.</p>
+		</section>
+
+	</main>
+</body>
+</html>
