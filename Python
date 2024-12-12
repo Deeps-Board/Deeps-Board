@@ -1,0 +1,66 @@
+student_scores = {
+    "Alice": 85,
+    "Bob": 92,
+    "Charlie": 78,
+    "Diana": 95
+}
+
+# 1. Accessing items
+print("Alice's score:", student_scores["Alice"])
+
+# 2. Adding an item
+student_scores["Eve"] = 88
+print("Added Eve's score:", student_scores)
+
+# 3. Updating an item
+student_scores["Bob"] = 94
+print("Updated Bob's score:", student_scores)
+
+# 4. Removing an item
+removed_score = student_scores.pop("Charlie")
+print("Removed Charlie's score:", removed_score)
+print("After removal:", student_scores)
+
+# 5. Getting all keys
+keys = student_scores.keys()
+print("All keys:", keys)
+
+# 6. Getting all values
+values = student_scores.values()
+print("All values:", values)
+
+# 7. Getting all items
+items = student_scores.items()
+print("All items:", items)
+
+# 8. Checking if a key exists
+if "Diana" in student_scores:
+    print("Diana's score is present.")
+
+# 9. Using get() method
+eve_score = student_scores.get("Eve", "Not found")
+print("Eve's score using get():", eve_score)
+
+# 10. Clearing the dictionary
+student_scores.clear()
+print("Cleared dictionary:", student_scores)
+
+
+Output:
+
+Alice's score: 85
+Added Eve's score: {'Alice': 85, 'Bob': 92, 'Charlie': 78, 'Diana': 95, 'Eve': 88}
+Updated Bob's score: {'Alice': 85, 'Bob': 94, 'Charlie': 78, 'Diana': 95, 'Eve': 88}
+
+Removed Charlie's score: 78
+
+After removal: {'Alice': 85, 'Bob': 94, 'Diana': 95, 'Eve': 88}
+All keys: dict_keys(['Alice', 'Bob', 'Diana', 'Eve'])
+All values: dict_values([85, 94, 95, 88])
+All items: dict_items([('Alice', 85), ('Bob', 94), ('Diana', 95), ('Eve', 88)])
+
+Diana's score is present.
+
+Eve's score using get(): 88
+
+Cleared dictionary: {}
