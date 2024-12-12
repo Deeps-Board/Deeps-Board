@@ -12,8 +12,8 @@
 
  - 🔭 I have Skills and knowledge on...
 
-    C | C++ | python | HTML | CSS | PHP | XML | SQL | DBMS
-
+    C | C++ | python | HTML | CSS | PHP | XML | SQL | DBMS | serviceNow | Root cause Analysis.
+     
   - ✨ I have Good Qualities
 
     verbal communication
@@ -38,11 +38,20 @@
 
     - 🌱 My Internship
    
-      AWS Cloud Computing
+      AWS Cloud Computing & Technical Support
 
       Software Testing
 
-  - 😄 Pronouns: ...
+       - 🌱 My Certification
+     
+         Infosys SpringBoard: Network Topology
+         Infosys Springboard :Root Cause Analysis
+         Amazon : AWS Cloud Computing
+
+        - 🔭 PUBLISHED
+        - ENN Device to treat Neurological Disorder – Neuro Network
+        - TRAF - Translating Acoustic Signal through RF Communication
+    
 
       She / Her
 
