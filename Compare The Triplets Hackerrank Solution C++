@@ -1,0 +1,76 @@
+Compare The Triplets Hackerrank Solution C++
+
+#include <map>
+#include <set>
+#include <list>
+#include <cmath>
+#include <ctime>
+#include <deque>
+#include <queue>
+#include <stack>
+#include <string>
+#include <bitset>
+#include <cstdio>
+#include <limits>
+#include <vector>
+#include <climits>
+#include <cstring>
+#include <cstdlib>
+#include <fstream>
+#include <numeric>
+#include <sstream>
+#include <iostream>
+#include <algorithm>
+#include <unordered_map>
+using namespace std;
+
+int main()
+{
+	int a0;
+	int a1;
+	int a2;
+	cin >> a0 >> a1 >> a2;
+	int b0;
+	int b1;
+	int b2;
+	cin >> b0 >> b1 >> b2;
+	int a = 0, b = 0;
+	if (a0 > b0)
+		a++;
+	if (a0 < b0)
+		b++;
+	if (a1 > b1)
+		a++;
+	if (a1 < b1)
+		b++;
+	if (a2 > b2)
+		a++;
+	if (a2 < b2)
+		b++;
+	cout << a << " " << b;
+	return 0;
+}
+
+
+Output:
+
+Let's take an example and compare it with our logic, suppose two students are Bob and Alice and Bob got 56, 75, 26 marks and Alice got 84, 45, 26 Now Compare The Triplets
+
+Bob Marks===> 56, 75, 26
+Alice Marks==> 84, 45, 26
+
+Bob Marks Alice Marks Bob Point Alice Point
+
+56 < 84 0 1
+75 > 45 1 0
+26 = 26 0 0
+
+So we can see that Bob and Alice got 1, 1 point in the tale That is an answer printed on the screen.
+
+Input(stdin)
+5 6 7
+3 6 10
+
+Expected OutPut:
+1 1
+
