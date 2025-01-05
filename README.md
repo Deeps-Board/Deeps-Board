@@ -51,6 +51,7 @@
         - 🔭 PUBLISHED
         - ENN Device to treat Neurological Disorder – Neuro Network
         - TRAF - Translating Acoustic Signal through RF Communication
+        - Building an Intelligent Web Platform for Mental Health Support
     
 
       She / Her
